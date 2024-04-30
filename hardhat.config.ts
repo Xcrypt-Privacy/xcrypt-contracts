@@ -20,9 +20,9 @@ const config: HardhatUserConfig = {
     }
   },
   networks: {
-    botanixTestnet: {
-      url: `https://node.botanixlabs.dev`,
-      chainId: 3636,
+    scrollTestnet: {
+      url: `https://sepolia-rpc.scroll.io`,
+      chainId: 534351,
       accounts: [`0x${PRIVATE_KEY}`]
     },
     coverage: {
